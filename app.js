@@ -20,7 +20,7 @@ app.post("/", function(req, res){
 
   // query variable is set to what user posted/requested(user input)
   const query = req.body.cityName;
-  const apiKey = "59ec192e67710a8235f76d6fdc6e98ec";
+  const apiKey = "";
   const units = "metric";
 
   // URL of API is manipulated so it is shortened and adapted to what the user requested
